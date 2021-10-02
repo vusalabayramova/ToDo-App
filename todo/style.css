@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #99ddff;    
+}
+.container{
+width: 35%;
+height: 500px;
+background-color: #fff; 
+padding: 20px;
+border: 1px solid #e0e0d1; 
+border-radius: 5px;
+margin: auto;
+margin-top: 50px;
+}
+.container .text-header{
+color: #99ddff;   
+text-align: center; 
+font-style: italic;
+letter-spacing: 3px;
+font-size: 35px;
+margin-top: 20px;
+}
+.container .addtext{
+margin-top: 20px;
+text-align: center;
+}
+.container .addtext #inp{
+padding: 12px 15px ;
+outline: none;
+width: 60%;
+margin-right: 15px;
+border: 2px solid #ebebe0;
+border-radius: 6px;
+color: #81c4e6;
+font-style: italic;
+}
+.container .addtext i{
+color: #81c4e6;   
+background-color: #f5f5f0; 
+border-radius: 50%;
+border: 1px solid #f5f5f0 ;
+padding: 15px;
+cursor: pointer;
+}
+.container .list{
+margin: auto;
+margin-top: 30px;
+
+width: 75%;
+}
+/* .container .list #task-list{
+margin-left: 50px; 
+ 
+} */
+.container .list #task-list li{
+list-style: none;
+color: #99ddff;   
+padding: 10px; 
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #e0e0d1;
+font-style: italic;
+font-size: 20px;
+letter-spacing: 1.5px;
+}
+.container .list #task-list li .icon i{
+ cursor: pointer;
+}
+.fa-pen{
+color: green;
+   
+}
+
+.edittext{
+outline: none;
+border: none;   
+
+font-size: 20px;
+font-style: italic;
+letter-spacing: 1.5px;
+}
+.edit-icon i{
+cursor: pointer;    
+}
+.fa-times{
+color: red;  
+font-size: 21px;  
+}
+.fa-save{
+color: yellow;    
+}
